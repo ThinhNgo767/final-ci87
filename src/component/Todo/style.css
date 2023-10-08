@@ -1,0 +1,22 @@
+.todo_list{
+    width: 100%;
+}
+.filter_todo{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 3rem;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #fff;
+
+}
+.filter_todo li{
+   font-size: 1.2rem;
+   cursor: pointer;
+}
+.active{
+    color: #087EA4;
+    border-bottom: 1px solid #087EA4;
+}

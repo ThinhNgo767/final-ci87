@@ -1,0 +1,32 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.todo span {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+input.check_todo{
+    width: 1rem;
+    height: 1rem;
+}
+
+.task_done{
+    text-decoration: line-through;
+    font-style: italic;
+    color: #149ECA;
+    
+}
+button.delete_task{
+    background-color: transparent;
+    border: none;
+}
+.icon_delete{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.icon_delete:hover{
+    color: #149ECA;
+}
