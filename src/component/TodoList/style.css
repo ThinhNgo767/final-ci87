@@ -5,12 +5,13 @@
     gap: 2rem;
 }
 .todo span {
-    font-size: 1.3rem;
-    margin-left: 1rem;
+    font-size: 1.2rem;
+    text-align: start;
+    width: 100%;
 }
 input.check_todo{
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .task_done{

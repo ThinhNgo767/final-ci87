@@ -17,7 +17,7 @@ const TodoList = ({ todos, completed ,handleDeleteTask}) => {
           onChange={() => completed(id)}
         />
         <span className={done}>{task}</span>
-      <button type="button" className="delete_task" onClick={()=>handleDeleteTask(id)}><AiOutlineDelete className="icon_delete"/></button>
+      <button type="button" className="delete_task" title="delete" onClick={()=>handleDeleteTask(id)}><AiOutlineDelete className="icon_delete"/></button>
     </div>
   );
 };
